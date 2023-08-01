@@ -1,0 +1,20 @@
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (1, 'Valkanouski', 'Mark', 'Romanovich', 'markvl836@gmail.com', '12345Qwerty', '2023-08-01 22:47:46', '2023-08-01 22:47:47', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (2, 'Movchun', 'Vika', 'Igorevna', 'vika12@gmail.com', '12345Qwerty', '2023-08-01 22:56:06', '2023-08-01 22:56:07', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (3, 'Albertovich', 'Albert', 'Olegovich', 'albert45@gmail.com', '12345Qwerty', '2023-08-01 22:56:10', '2023-08-01 22:56:08', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (4, 'Tanana', 'Pavel', 'Igorevich', 'tayu@gmail.com', '12345Qwerty', '2023-08-01 22:56:11', '2023-08-01 22:56:11', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (5, 'Minor', 'Bob', 'Igorevich', 'svaf@gmail.com', '12345Qwerty', '2023-08-01 22:56:13', '2023-08-01 22:56:13', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (6, 'Vargan', 'Alex', 'Olegovich', 'fadgnwt@gmail.com', '12345Qwerty', '2023-08-01 22:56:14', '2023-08-01 22:56:15', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (7, 'Sewer', 'Denis', 'Igorevich', 'dafbgwr@gmail.com', '12345Qwerty', '2023-08-01 22:56:16', '2023-08-01 22:56:16', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (8, 'Gribovsky', 'Vova', 'Olegovich', 'dfabrw@gmail.com', '12345Qwerty', '2023-08-01 22:56:17', '2023-08-01 22:56:17', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (9, 'Pupkin', 'Ivan', 'Olegovich', 'zfgsp@gmail.com', '12345Qwerty', '2023-08-01 22:56:18', '2023-08-01 22:56:19', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (10, 'Gribova', 'Alla', 'Valeryevna', 'dpgaf@gmail.com', '12345Qwerty', '2023-08-01 22:56:20', '2023-08-01 22:56:20', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (11, 'Gribovskq', 'Lena', 'Alexandrovna', 'znsfp@gmail.com', '12345Qwerty', '2023-08-01 22:56:22', '2023-08-01 22:56:22', 0);
+INSERT INTO data.user_info (id, surname, name, patronymic, email, password, created, changed, is_deleted) VALUES (12, 'Danik', 'Gibowski', 'Tomaskevich', 'Wmark8@gmail.com', '12345wqwerqA', '2023-08-01 20:00:04.946919', '2023-08-01 20:00:04.946919', 0);
+
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (1, 'ROLE_ADMINISTRATOR', 1, '2023-08-01 22:57:53', '2023-08-01 22:57:53');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (2, 'ROLE_SALE', 2, '2023-08-01 22:57:54', '2023-08-01 22:57:55');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (3, 'ROLE_SALE', 3, '2023-08-01 22:57:55', '2023-08-01 22:57:56');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (4, 'ROLE_CUSTOMER', 4, '2023-08-01 22:57:57', '2023-08-01 22:57:57');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (5, 'ROLE_CUSTOMER', 5, '2023-08-01 22:57:59', '2023-08-01 22:57:59');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (6, 'ROLE_CUSTOMER', 7, '2023-08-01 22:58:00', '2023-08-01 22:58:00');
+INSERT INTO data.role (id, role_name, id_user, changed, created) VALUES (7, 'ROLE_OTHER', 8, '2023-08-01 22:58:02', '2023-08-01 22:58:02');

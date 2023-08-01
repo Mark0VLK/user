@@ -1,6 +1,26 @@
 spring:
   datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/data?useSSL=false&serverTimezone=UTC
+      maximum-pool-size: 20
+      driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/data?useSSL=false&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-description: Flyway Scripts
+    user: root
+    password: root
+    url: jdbc:mysql://localhost:3306/data?useSSL=false&serverTimezone=UTC
+    default-schema: data
+    out-of-order: true
+    ignore-migration-patterns: '*:ignored'
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+      current_session_context_class: org.springframework.orm.hibernate6.SpringSessionContext
+      format_sql: true
